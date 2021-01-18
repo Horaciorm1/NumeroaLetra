@@ -41,6 +41,11 @@ namespace WebNumeroLetra.Controllers
             return res;
         }
 
+        public string toText(int num)
+        {
+            throw new NotImplementedException();
+        }
+
         private string toText(double value)
         {
             string Num2Text = "";
